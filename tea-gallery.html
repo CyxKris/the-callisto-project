@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Callisto | Our Teas</title>
+    <!-- Website Icon -->
+    <link rel="website icon" type="png" href="images/website icon.png">
+    <meta name="description" content="The available teas at Callisto">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/tea-gallery.css">
+  </head>
+
+  <body>
+    <!-- INTRO ANIMATION -->
+    <div class="overlay"></div>
+    <!-- MAIN PAGE -->
+    <div class="wrapper">
+
+      <!-- NAVIGATION BAR -->
+      <header class="flex" id="navigation-bar">
+        <!-- Main Logo -->
+        <a href="index.html" id="logo">
+          <img src="images/Gold Logo.svg" alt="Callisto Logo">
+        </a>
+
+        <!-- Menu Icon -->
+        <a href="#" id="menu" onclick="show()">
+          <img src="images/Menu-icon.svg" alt="Menu Icon">
+        </a>
+
+        <!-- Navigation Links -->
+        <div class="navigation">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">Tea Gallery</a>
+              </li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="about-us.html">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- HERO SECTION -->
+      <div id="hero">
+        <div>
+          <h1>WELCOME TO THE TEA GALLERY.</h1>
+          <img src="images/white-cups.jpg" alt="A tea set">
+          <div class="hero-text">
+            <p>
+              This is where you find the many teas that await you. Delve into the Callisto world and discover a whole new taste. These are the best tea money has to offer. I absolutely promise you.
+            </p>
+          </div>
+
+          <div class="hero-cta flex">
+            <h2>DON'T KNOW WHAT YOU WANT YET?</h2>
+            <a href="#mini-set" class="button button-solid">TRY OUR MINI SET</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TARGET FOR THE TEA POPUPS -->
+      <div id="target" class="hidden"></div>
+
+
+      <!-- PAGE CONTENT -->
+      <main>
+        <div id="products">
+          <h2>OUR PRODUCTS</h2>
+
+          <div id="black-comet" class="tea-product flex">
+            <div class="tea-product-image">
+              <img src="images/callisto-black-lpurple.png" alt="Callisto Black Comet">
+            </div>
+
+            <div class="product-divider"></div>
+
+            <div class="tea-product-info flex">
+              <div>
+                <h3 class="tea-name">BLACK COMET</h3>
+                <p class="tea-category">[BLACK TEA]</p>
+              </div>
+
+              <div class="tea-description">
+                <p>
+                  The Black Comet is a bold and robust blend of tea leaves sourced from India and Africa. It is fully fermented, giving it a rich and full-bodied flavour that is perfect for those who enjoy a stronger tea. Black tea is known for its bold flavour and high caffeine content, making it and ideal choice for a morning pick-me-up.
+                  <div class="learn-more">
+                    <a class="learn-more-button" onclick="loadFile('black-comet')">Learn More</a>
+                  </div>
+                </p>
+              </div>
+
+              <div class="tea-buy flex">
+                <div>
+                  <p>25 Bags</p>
+                  <p>500g</p>
+                </div>
+                <a href="shop.html" class="button button-solid">BUY</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="green-galaxy" class="tea-product flex">
+            <div class="tea-product-image">
+              <img src="images/callisto-green-purple.png" alt="Callisto Green Galaxy">
+            </div>
+
+            <div class="product-divider"></div>
+
+            <div class="tea-product-info flex">
+              <div>
+                <h3 class="tea-name">GREEN GALAXY</h3>
+                <p class="tea-category">[GREEN TEA]</p>
+              </div>
+
+              <div class="tea-description">
+                <p>
+                  Callisto's Green Galaxy is a refreshing blend of high-quality tea leaves sourced from China and Japan. This unfermented tea is steamed and dried, preserving the natural antioxidants and other beneficial compounds found in the tea leaves. It has a delicate, refreshing flavour and a mild aroma that is perfect for those who appreciate a light and refreshing tea.
+                  <div class="learn-more">
+                    <a class="learn-more-button" onclick="loadFile('green-galaxy')">Learn More</a>
+                  </div>
+                </p>
+              </div>
+
+              <div class="tea-buy flex">
+                <div>
+                  <p>25 Bags</p>
+                  <p>500g</p>
+                </div>
+                <a href="shop.html" class="button button-solid">BUY</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="oolong-eclipse" class="tea-product flex">
+            <div class="tea-product-image">
+              <img src="images/callisto-oolong-green.png" alt="Callisto Oolong Eclipse">
+            </div>
+
+            <div class="product-divider"></div>
+
+            <div class="tea-product-info flex">
+              <div>
+                <h3 class="tea-name">OOLONG ECLIPSE</h3>
+                <p class="tea-category">[OOLONG TEA]</p>
+              </div>
+
+              <div class="tea-description">
+                <p>
+                  The Oolong Eclipse is a premium blend of semi-fermented tea leaves sourced from the best tea gardens in China and Taiwan. It has a mild and refreshing taste that is both energizing and soothing, making it a perfect choice for tea enthusiasts who appreciate a delicate balance between green and black teas.
+                  <div class="learn-more">
+                    <a class="learn-more-button" onclick="loadFile('oolong-eclipse')">Learn More</a>
+                  </div>
+                </p>
+              </div>
+
+              <div class="tea-buy flex">
+                <div>
+                  <p>25 Bags</p>
+                  <p>500g</p>
+                </div>
+                <a href="shop.html" class="button button-solid">BUY</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="mini-set" class="tea-product flex">
+            <div class="tea-product-image">
+              <img src="images/mini-set-dark.png" alt="Callisto Mini Set">
+            </div>
+
+            <div class="product-divider"></div>
+
+            <div class="tea-product-info flex">
+              <div>
+                <h3 class="tea-name">CALLISTO MINI SET</h3>
+                <p class="tea-category">[TEA SET]</p>
+              </div>
+
+              <div class="tea-description">
+                <p>
+                  The Callisto Mini Set is the perfect way to sample the best of Callisto's premium tea blends. This set contains three different types of tea: Green Tea, Black Tea, and Oolong Tea, each in a convenient mini size. The set is designed to allow you to experience the unique flavours and health benefits of each tea without committing to a larger quantity.
+                  <div class="learn-more">
+                    <a class="learn-more-button" onclick="loadFile('mini-set')">Learn More</a>
+                  </div>
+                </p>
+              </div>
+
+              <div class="tea-buy flex">
+                <div>
+                  <p>8 Bags Each</p>
+                  <p>100g</p>
+                </div>
+                <a href="shop.html" class="button button-solid">BUY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- PAGE FOOTER -->
+      <footer id="footer">
+        <div>
+          <div class="top-footer">
+            <div id="footer-logo" class="flex">
+              <a href="index.html"><img src="images/Gold Logo.svg" alt="Callisto Logo"></a>
+            </div>
+            
+            <div id="footer-links" class="flex">
+              <div class="footer-newsletter footer-section">
+                <h5>Newsletter Signup</h5>
+                <div class="flex">
+                  <p>Get updated on new developments in our brand.</p>
+                  <form class="newsletter-form flex">
+                    <input type="email" name="email" placeholder="EMAIL" class="footer-input" required>
+                    <input type="submit" value="Join" class="footer-submit" data-open-modal>
+                  </form>
+                  <dialog data-modal class="modal">
+                    <div>
+                      <img src="images/check-circle.svg">
+                      <p>Email Sent successfully!</p>
+                    </div>
+                    <button class="button button-solid" data-close-modal>CLOSE</button>
+                  </dialog>
+                </div>
+              </div>
+
+              <div class="footer-nav-links footer-section">
+                <h5>Navigation</h5>
+                <div>
+                  <a href="index.html">Home</a>
+                  <a href="#">Tea Gallery</a>
+                  <a href="shop.html">Shop</a>
+                  <a href="#">Blog</a>
+                  <a href="about-us.html">About Us</a>
+                </div>
+              </div>
+
+              <div class="footer-contact-links footer-section">
+                <h5>Contact</h5>
+          
+                <div>
+                  <a href="about-us.html#contact-us">Send us a message</a>
+                  <p>callistoteas@gmail.com</p>
+                  <p>+234-706-131-3300</p>
+                  <div class="socials">
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="images/Whatsapp - 50.svg" alt="Whatsapp Logo"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram - 50.svg" alt="Instagram Logo"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/Twitter - 50.svg" alt="Twitter Logo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="copyright">
+            <p>&copy;Callisto | 2023. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    
+    <script src="js/app.js" defer></script>
+    <script src="js/tea-gallery.js" defer></script>
+  </body>
+</html>

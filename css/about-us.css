@@ -1,0 +1,531 @@
+
+body {
+    text-shadow: var(--text-shadow);
+}
+
+body.hidden {
+    overflow: hidden;
+}
+
+/* ?DOCUMENT SETUP */
+
+/* THE BUTTON CLASS */
+.button {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    transition: .3s ease;
+}
+
+.button:hover {
+    background: var(--green);
+}
+
+.button-solid {
+    color: var(--dark);
+    background: var(--gold);
+    border: none;
+}
+
+.button-transparent {
+    color: var(--black);
+    background: transparent;
+    border: 1.5px solid var(--black);
+}
+
+/* *Styling the header (h1, h2, h3) tags */
+h1, h2, h3 {
+    font-family: 'Khand', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+
+/* ?HERO SECTION */
+#hero {
+    padding-top: 8rem;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8vh;
+}
+
+
+#hero-image {
+    width: 100%;
+    margin: 2rem 0 0;
+}
+
+#hero-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ?ABOUT US INFO */
+.info {
+    gap: 1rem;
+}
+
+.left {
+    margin: 6rem 0;
+}
+
+.info h2 {
+    font-weight: bold;
+    opacity: 80%;
+    font-size: 4vh;
+}
+
+.info img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin: 1rem 0;
+}
+
+.info p {
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* The bold class */
+.bold p {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+
+/* ?THE TEA COLLECTION SECTION */
+#our-teas h2 {
+    margin-bottom: .8rem;
+}
+
+#tea-slider {
+    margin: 0 0 2rem;
+    width: 100%;
+}
+
+#see-all-button {
+    justify-content: end;
+    align-items: end;
+}
+
+#see-all-button .button {
+    padding: .5rem 1rem;
+    width:fit-content;
+    gap: .2rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+#see-all-button .button:hover {
+    gap: .3rem;
+    background: transparent;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .1);
+}
+
+#see-all-button .button-transparent img {
+    width: 20px;
+}
+
+
+#tea-section {
+    position: relative;
+    margin: 2rem auto 6rem;
+    cursor: pointer;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+
+.tea-card {
+    background: var(--light-light-purple);
+    width: calc(100% / 3);
+    height: 450px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+}
+
+.tea-card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.description {
+    padding: 0 1rem 1rem;
+    font-weight: bold;
+}
+
+.tea-name {
+    font-family: 'Khand', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1;
+    word-spacing: .1px;
+}
+
+.tea-size {
+    font-family: 'Khand', sans-serif;
+    font-size: 1.5em;
+}
+
+.swiper-pagination {
+    bottom: 0;
+    right: 0;
+}
+
+
+/* ?THE CONTACT SECTION */
+#contact-us {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 5rem;
+}
+
+#contact-us h2 {
+    text-align: center;
+    font-size: 4.5vh;
+    margin: 7rem 0 4rem;
+}
+
+#contact-container {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    flex-direction: column-reverse;
+}
+
+#contact-info {
+    background: var(--green);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    z-index: 2;
+}
+
+#contact-info h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+#contact-info ul {
+    position: relative;
+    margin: 1.5rem 0;
+}
+
+.contact-info li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin: 1.3rem 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-info li span:nth-child(1) img {
+    width: 30px;
+}
+
+.contact-info li span:nth-child(2) {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.contact-socials {
+    justify-content: start;
+    align-items: flex-start;
+    list-style: none;
+    width: 100%;
+}
+
+.contact-socials li a {
+    margin-right: 1.5rem;
+}
+
+#contact-form {
+    background: var(--gold);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding: 2rem;
+}
+
+#contact-form h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
+    margin: 1rem 0 3rem;
+}
+
+.form {
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.input-box [type="text"] {
+    text-transform: capitalize;
+}
+
+.input-box [type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    max-width: 120px;
+    border: 2px solid var(--black);
+    transition: all .3s ease;
+} 
+
+.input-box [type="submit"]:hover {
+    border: none;
+    background: var(--green);
+    border-bottom: 2px solid var(--black);
+    font-size: 1.2em;
+}
+
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    font-family: 'Glegoo', sans-serif;
+    resize: none;
+    padding: 8px 0;
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 2px solid var(--black);
+    outline: none;
+    background: transparent;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border-bottom: 2px solid var(--dark-purple);
+}
+
+.input-box textarea {
+    height: 7.5rem;
+}
+
+.input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    transition: all .3s ease;
+}
+
+.input-box input:focus ~ span,
+.input-box input:not(:placeholder-shown) ~ span,
+.input-box textarea:not(:placeholder-shown) ~ span,
+.input-box textarea:focus ~ span {
+    transform: translateY(-20px);
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--green);
+}
+
+/* Autocomplete Hack */
+.input-box input:-webkit-autofill,
+.input-box input:-webkit-autofill:hover, 
+.input-box input:-webkit-autofill:focus, 
+.input-box input:-webkit-autofill:active 
+{
+    -webkit-background-clip: text;
+}
+
+.form-icon {
+    width: 20px;
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+
+.error {
+    color: red;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+dialog[open] {
+    display: flex;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+
+
+/* ?MEDIA QUERIES FOR TABLETS */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    #logo img {
+        width: 140px;
+    }
+
+    #menu img {
+        width: 40px;
+    }
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .socials a {
+        margin-right: 3rem;
+    }
+}
+
+
+/* ?MEDIA QUERIES FOR DESKTOP SCREENS */
+@media (min-width: 1023px) {
+    h1 {
+        font-size: 8em;
+    }
+
+    #hero-image {
+        margin: 3rem 0 0;
+    }
+    
+    .info {
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .left {
+        text-align: start;
+        margin: 5rem 0;
+    }
+    
+    .right {
+        text-align: end;
+        align-items: end;
+    }
+    
+    .info div {
+        width: 70%;
+    }
+    
+    .info h2 {
+        font-family: 'Khand', sans-serif;
+        font-weight: bold;
+        opacity: 80%;
+        font-size: 1.5em;
+    }
+    
+    .info img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        margin: 1rem 0;
+    }
+    
+    
+    .info p {
+        font-size: 1.1em;
+    }
+    
+    
+    .bold p {
+        width: 70%;
+    }
+
+
+    /* ?CONTACT SECTION */
+
+    #contact-us h2 {
+        font-size: 3.5em;
+    }
+
+    #contact-container {
+        flex-direction: row;
+        height: 600px;
+        /* width: 100%; */
+    }
+
+    #contact-info {
+        position: absolute;
+        left: 5%;
+        width: 40%;
+        height: 90%;
+        padding: 3rem;
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    #contact-form {
+        position: absolute;
+        right: 0;
+        width: 70%;
+        padding: 2rem 0 2rem 20%;
+        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    #contact-form h3 {
+        font-size: 1.5em;
+    }
+
+    .form {
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0 2rem 1rem 0;
+    }
+
+    .input-box.w50 {
+        width: 47%;
+    }
+    
+    .input-box.w100 {
+        width: 100%;
+    }
+
+
+
+    /* ?FOOTER SECTION */
+    #footer .top-footer {
+        flex-direction: row;
+    }
+
+    #footer-logo {
+        padding-bottom: 0;
+    }
+
+    #footer-links {
+        width: 55%;
+    }
+
+    .socials a {
+        margin-right: 3rem;
+    }
+}

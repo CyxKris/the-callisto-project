@@ -1,0 +1,273 @@
+
+/* THE TARGET FOR THE TEA POPUPS */
+#target.close {
+    display: none;
+}
+
+#target.open {
+    display: block;
+}
+
+/* THE BUTTON CLASS */
+.button {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 1rem 2rem;
+    transition: .3s ease;
+}
+
+.button:hover {
+    background: var(--green);
+}
+
+.button-solid {
+    color: var(--dark);
+    background: var(--gold);
+    border: none;
+}
+
+.button-transparent {
+    color: var(--black);
+    background: transparent;
+    border: 1.5px solid var(--black);
+}
+
+/* *Styling the header (h1, h2, h3) tags */
+h1, h2 {
+    font-family: 'Khand', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+
+
+/* ?THE HERO SECTION */
+#hero {
+    padding: 8rem 2rem 2rem;
+}
+
+#hero > div {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+#hero img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 3.5vh;
+}
+
+.hero-text {
+    padding: 2rem 0;
+    font-size: 1.2em;
+    line-height: 2;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.hero-cta {
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    gap: .8rem;
+}
+
+.hero-cta .button {
+    font-weight: 400;
+    border: 2px solid var(--black);
+    padding: .5rem 1rem;
+}
+
+
+
+/* ?THE MAIN SECTION */
+#products {
+    margin: 3rem 0 0;
+    /* border-inline: 2px solid var(--black); */
+}
+
+#products h2 {
+    text-align: center;
+    margin-bottom: 4.5rem;
+    font-size: 5.5vh;
+}
+
+#black-comet {
+    border-top: 2px solid var(--black);
+}
+
+.tea-product {
+    flex-direction: column;
+    border-bottom: 2px solid var(--black);
+    border-inline: 2px solid var(--black);
+}
+
+.tea-product-image {
+    width: 100%;
+}
+
+.tea-product-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-divider {
+    height: 2px;
+    width: 95%;
+    margin: 0 auto;
+    background: var(--black);
+}
+
+.tea-product-info {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items:normal;
+    padding: 1rem 0;
+}
+
+.tea-name {
+    font-family: 'Khand', sans-serif;
+    font-size: 2em;
+}
+
+.tea-name,
+.tea-category {
+    text-align: center;
+}
+
+.tea-description {
+    font-size: 1.1em;
+    line-height: 2.5;
+    padding: 1rem;
+}
+
+/* The hidden class for the target div */
+.hidden {
+    display: none;
+}
+
+.learn-more-button {
+    font-family: 'Khand', sans-serif;
+    color: var(--gold);
+    font-weight: 300;
+    cursor: pointer;
+    border-bottom: 2px solid var(--black);
+    transition: .3s ease;
+}
+
+.learn-more-button:hover {
+    letter-spacing: .5px;
+}
+
+.tea-buy {
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.tea-buy > div {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--dark);
+    font-family: 'Khand', sans-serif;
+}
+
+.tea-buy .button {
+    border-radius: 0;
+    border: 2px solid var(--black);
+    padding: .8rem 2rem;
+}
+
+
+
+/* ?MEDIA QUERY FOR TABLETS */
+@media (min-width: 768px) {
+    #hero {
+        padding-top: 16rem;
+    }
+
+    h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    #products {
+        margin: 5rem 0 0;
+    }
+
+    .hero-text {
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    @media (orientation: landscape) {
+        .tea-product {
+            flex-direction: row;
+            padding: 2rem;
+        }
+    
+        .tea-product-image {
+            width: 35%;
+            border: none;
+        }
+    
+        .tea-product-info {
+            width: 65%;
+            padding: 2rem;
+        }
+    
+        .product-divider {
+            width: 2px;
+            height: 250px;
+            background: var(--black);
+            margin: 0 1rem;
+        }
+    }
+}
+
+
+/* ?MEDIA QUERY FOR DESKTOP SCREENS */
+@media (min-width: 1023px) {
+    #hero {
+        padding-top: 9rem;
+    }
+    h1 {
+        font-size: 8em;
+    }
+
+    .hero-text {
+        margin-bottom: 2rem;
+    }
+
+    #products {
+        margin: 3rem 0 0;
+    }
+
+    #products h2 {
+        font-size: 5.5em;
+    }
+    
+
+    .tea-product-image {
+        width: 30%;
+        border: none;
+    }
+
+    .tea-product-info {
+        width: 70%;
+        padding: 2rem;
+    }
+}

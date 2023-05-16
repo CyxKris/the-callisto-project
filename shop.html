@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Callisto | Shop</title>
+    <!-- Website Icon -->
+    <link rel="website icon" type="png" href="images/website icon.png">
+    <meta name="description" content="The shop page of Callisto website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/shop.css">
+  </head>
+
+  <body>
+    <!-- INTRO ANIMATION -->
+    <div class="overlay"></div>
+    <!-- MAIN PAGE -->
+    <div class="wrapper">
+
+      <!-- NAVIGATION BAR -->
+      <header class="flex" id="navigation-bar">
+        <!-- Main Logo -->
+        <a href="index.html" id="logo">
+          <img src="images/Gold Logo.svg" alt="Callisto Logo">
+        </a>
+
+        <div class="flex">
+          <!-- Shop Icon -->
+          <a href="#" id="shop" onclick="showCart()">
+            <img src="images/Shop-icon.svg" alt="Shop Icon">
+            <div id="cart-amount" class="cart-amount">0</div>
+          </a>
+
+          <!-- Menu Icon -->
+          <a href="#" id="menu" onclick="show()">
+            <img src="images/Menu-icon.svg" alt="Menu Icon">
+          </a>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="navigation">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="tea-gallery.html">Tea Gallery</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+              <li>
+                <a href="about-us.html">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Cart Content -->
+      <div id="cart-content" class="cart">
+
+        <!-- Close Icon -->
+        <a href="#" id="close" onclick="showCart()">
+          <img src="images/close.svg" alt="Close Menu Icon">
+        </a>
+
+        <h2 class="cart-title">YOUR CART</h2>
+
+        <div id="cart-label" class="cart-label">
+          <h3>Cart Is Empty</h3>
+        </div>
+
+        <div id="cart-boxes"></div>
+
+        <div id="cart-total" class="cart-total">
+          <div class="total-title">Total:</div>
+          <div class="total-price"></div>
+        </div>
+
+        <div id="cart-order" class="cart-order" cart-open-modal>SEND ORDER</div>
+
+        <!-- Popup Modal -->
+        <dialog cart-modal class="modal">
+          <div>
+            <img src="images/check-circle.svg">
+            <p>Order Sent successfully!</p>
+          </div>
+          <button class="button button-solid" cart-close-modal>CLOSE</button>
+        </dialog>
+
+      </div>
+
+      <!-- PAGE CONTENT -->
+      <main>
+        <div id="hero">
+          <h1>THE SHOP.</h1>
+          <p>Shop our collection of unique and organic tea blends.</p>
+          <div id="hero-image">
+            <img src="images/white-cups.jpg" alt="A tea setup">
+          </div>
+        </div>
+
+        <section id="products">
+          <h2>--OUR TEA SELECTION</h2>
+          <div class="products-container" id="products-container"></div>
+        </section>
+      </main>
+
+      <!-- PAGE FOOTER -->
+      <footer id="footer">
+        <div>
+          <div class="top-footer">
+            <div id="footer-logo" class="flex">
+              <a href="index.html"><img src="images/Gold Logo.svg" alt="Callisto Logo"></a>
+            </div>
+            
+            <div id="footer-links" class="flex">
+              <div class="footer-newsletter footer-section">
+                <h5>Newsletter Signup</h5>
+                <div class="flex">
+                  <p>Get updated on new developments in our brand.</p>
+                  <form class="newsletter-form flex">
+                    <input type="email" name="email" placeholder="EMAIL" class="footer-input" required>
+                    <input type="submit" value="Join" class="footer-submit" data-open-modal>
+                  </form>
+                  <dialog data-modal class="modal">
+                    <div>
+                      <img src="images/check-circle.svg">
+                      <p>Email Sent successfully!</p>
+                    </div>
+                    <button class="button button-solid" data-close-modal>CLOSE</button>
+                  </dialog>
+                </div>
+              </div>
+              
+              <div class="footer-nav-links footer-section">
+                <h5>Navigation</h5>
+                <div>
+                  <a href="index.html">Home</a>
+                  <a href="tea-gallery.html">Tea Gallery</a>
+                  <a href="#">Shop</a>
+                  <a href="#">Blog</a>
+                  <a href="about-us.html">About Us</a>
+                </div>
+              </div>
+
+              <div class="footer-contact-links footer-section">
+                <h5>Contact</h5>
+          
+                <div>
+                  <a href="about-us.html#contact-us">Send us a message</a>
+                  <p>callistoteas@gmail.com</p>
+                  <p>+234-706-131-3300</p>
+                  <div class="socials">
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="images/Whatsapp - 50.svg" alt="Whatsapp Logo"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram - 50.svg" alt="Instagram Logo"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/Twitter - 50.svg" alt="Twitter Logo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="copyright">
+            <p>&copy;Callisto | 2023. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    
+    <!-- <script src="js/app.js" defer></script> -->
+    <script src="js/data.js" defer></script>
+    <script src="js/shop.js" defer></script>
+  </body>
+</html>

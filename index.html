@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Callisto | Home</title>
+    <!-- Website Icon -->
+    <link rel="website icon" type="png" href="images/website icon.png">
+    <meta name="description" content="Tea company based in Lagos, Nigeria">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Css Links -->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Khand:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- INTRO ANIMATION -->
+    <div class="overlay"></div>
+
+    <!-- ACTUAL PAGE CONTENT -->
+    <div class="wrapper">
+      <!-- NAVIGATION -->
+      <header class="flex" id="navigation-bar">
+        <a href="#" id="logo">
+          <img src="images/Gold Logo.svg" alt="Callisto Logo">
+        </a>
+
+        <a href="#" id="menu" onclick="show()">
+          <img src="images/Menu-icon.svg" alt="Menu Icon">
+        </a>
+
+        <div class="navigation">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="tea-gallery.html">Tea Gallery</a>
+              </li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="about-us.html">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- HERO SECTION -->
+      <div id="hero" class="flex">
+        <div class="flex">
+          <h1>
+            <span>Discover</span>
+            <span>your</span>
+            <span>taste</span>
+            <span>with</span>
+            <span>Callisto.</span>
+          </h1>
+          <a class="button button-solid flex" href="tea-gallery.html">
+            Explore
+            <img src="images/arrow-right.svg">
+          </a>
+        </div>
+      </div>
+
+      <!-- THE MAIN SECTION OF THE PAGE -->
+      <main>
+        
+        <div id="achievements-section" class="flex">
+          <div class="achievement">
+            <div>
+              <img src="images/yellow-leaf-branch.svg" alt="A yellow leaf">
+              <span class="number">50k+</span>
+            </div>
+            <p>
+              Over 50 thousand products sold since 2020
+            </p>
+          </div>
+
+          <div class="achievement">
+            <div>
+              <img src="images/yellow-leaf-fat.svg" alt="A yellow leaf">
+              <span class="number">10+</span>
+            </div>
+            <p>
+              Has reached over 10 countries around the world
+            </p>
+          </div>
+
+          <div class="achievement">
+            <div>
+              <img src="images/yellow-leaf-thin.svg" alt="A yellow leaf">
+              <span class="number">15k+</span>
+            </div>
+            <p>
+              Over 15 thousand customers have benefited from our products
+            </p>
+          </div>
+          
+        </div>
+
+        <div id="about-callisto">
+          <div class="flex info">
+            <div>
+              <h2>Get to know callisto</h2>
+              <p>
+                We are a minimal tea company that offer a carefully curated selection of high-quality teas. Our products are ethically sourced and environmentally friendly.
+              </p>
+            </div>
+
+            <div class="video flex">
+              <video class="tea-video" autoplay muted loop plays-inline>
+                <source src="videos/Tea Pouring - Landscape (Dark).mp4">
+              </video>
+            </div>
+          </div>
+
+          <div class="flex benefits">
+            <div class="about-callisto-cards flex">
+              <div>
+                <img src="images/circle-green.svg" alt="Green Circle">
+              </div>
+              <div>
+                <h4>
+                  ENVIRONMENTALLY FRIENDLY
+                </h4>
+                <p>
+                  Our products are not only good, but environmentally friendly as well.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-callisto-cards flex">
+              <div>
+                <img src="images/circle-gold.svg" alt="Gold Circle">
+              </div>
+              <div>
+                <h4>ORGANIC</h4>
+                <p>
+                  Our products are not only good, but environmentally friendly as well.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-callisto-cards flex">
+              <div>
+                <img src="images/circle-purple.svg" alt="Purple Circle">
+              </div>
+              <div>
+                <h4>HEALTHY & TASTY</h4>
+                <p>
+                  Our products are not only good, but environmentally friendly as well.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="featured-product">
+          <h2>FEATURED PRODUCT</h2>
+          <div>
+            <div id="mini-set"  class="flex">
+              <div class="mini-set-image">
+                <img src="images/mini-set-dark.png" alt="Callisto Mini Set">
+              </div>
+
+              <div class="mini-set-info">
+                <h3>Callisto Mini Set</h3>
+                <p>
+                  The Callisto Mini Set is the perfect way to sample the best of Callisto's premium tea blends. This set contains three different types of tea: Green Tea, Black Tea, and Oolong Tea, each in a convenient mini size.
+                </p>
+                <a href="tea-gallery.html#mini-set" class="learn-more-button">Learn More</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div id="testimonials-section">
+          <h2>TESTIMONIALS</h2>
+        
+          <div id="testimonials" class="flex swiper mySwiper">
+
+            <div class="swiper-wrapper">
+              <div class="person swiper-slide flex">
+                <div class="flex">
+                  <img src="images/man1.jpg" alt="A man smiling at the camera" class="person-image">
+                  <p class="person-thought">"I never thought a company such as Callisto would exist in Nigeria. I'm so glad I got to discover their amazing products."</p>
+                </div>
+                <p class="person-name">Michael Jones</p>
+              </div>
+          
+              <div class="person swiper-slide flex">
+                <div class="flex">
+                  <img src="images/woman1.jpg" alt="A woman smiling at the camera" class="person-image">
+                  <p class="person-thought">"Callisto Tea is the best thing you can do for you taste buds especially if you don't know a thing about tea and have no idea where to start."</p>
+                </div>
+                <p class="person-name">Jessica</p>
+              </div>
+          
+              <div class="person swiper-slide flex">
+                <div class="flex">
+                  <img src="images/man2.jpg" alt="A man smiling at the camera" class="person-image">
+                  <p class="person-thought">"The moment I tasted the Black Comet, I knew I had found my perfect tea. This brand is really a dream come true."</p>
+                </div>
+                <p class="person-name">Femi</p>
+              </div>
+              
+              <div class="person swiper-slide flex">
+                <div class="flex">
+                  <img src="images/woman2.jpg" alt="A woman smiling at the camera" class="person-image">
+                  <p class="person-thought">"Callisto is a new guilty pleasure. I can't go a day without tasting their great flavours. Do yourself a favour and get a box."</p>
+                </div>
+                <p class="person-name">Princess</p>
+              </div> 
+            </div>
+
+            <div class="slider-buttons">
+              <svg viewBox="0 0 24 24" id="angle-left"><path fill="#222222" d="M11.29,12l3.54-3.54a1,1,0,0,0,0-1.41,1,1,0,0,0-1.42,0L9.17,11.29a1,1,0,0,0,0,1.42L13.41,17a1,1,0,0,0,.71.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41Z" class="swiper-button-prev"></path></svg>
+              <svg viewBox="0 0 24 24" id="angle-right"><path fill="#222222" d="M14.83,11.29,10.59,7.05a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41L12.71,12,9.17,15.54a1,1,0,0,0,0,1.41,1,1,0,0,0,.71.29,1,1,0,0,0,.71-.29l4.24-4.24A1,1,0,0,0,14.83,11.29Z" class="swiper-button-next"></path></svg>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div id="coming-soon-section">
+          <h2>Coming Soon!</h2>
+          <div>
+            <div id="callisto-blog" class="flex">
+              <div class="callisto-blog-image">
+                <img src="images/blog-image.jpg" alt="A calligraphy pen">
+              </div>
+
+              <div class="callisto-blog-info">
+                <h3>Callisto Blog</h3>
+                <p>
+                  Coming soon! Prepare for an exciting revelation. Our blog is set to launch on Callisto, bringing you captivating stories, insightful articles, and thrilling adventures. Get ready to embark on a journey of discovery as we ignite the blogosphere. <a href="#footer-links">Stay tuned</a> for an incredible experience!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- FOOTER SECTION -->
+      <footer id="footer">
+        <div>
+          <div class="top-footer">
+            <div id="footer-logo" class="flex">
+              <a href="index.html"><img src="images/Gold Logo.svg" alt="Callisto Logo"></a>
+            </div>
+            
+            <div id="footer-links" class="flex">
+              <div class="footer-newsletter footer-section">
+                <h5>Newsletter Signup</h5>
+                <div class="flex">
+                  <p>Get updated on new developments in our brand.</p>
+                  <form class="newsletter-form flex">
+                    <input type="email" name="email" placeholder="EMAIL" class="footer-input" required>
+                    <input type="submit" value="Join" class="footer-submit" data-open-modal>
+                  </form>
+                  <dialog data-modal class="modal">
+                    <div>
+                      <img src="images/check-circle.svg">
+                      <p>Email Sent successfully!</p>
+                    </div>
+                    <button class="button button-solid" data-close-modal>CLOSE</button>
+                  </dialog>
+                </div>
+              </div>
+
+              <div class="footer-nav-links footer-section">
+                <h5>Navigation</h5>
+                <div>
+                  <a href="#">Home</a>
+                  <a href="tea-gallery.html">Tea Gallery</a>
+                  <a href="shop.html">Shop</a>
+                  <a href="#">Blog</a>
+                  <a href="about-us.html">About Us</a>
+                </div>
+              </div>
+
+              <div class="footer-contact-links footer-section">
+                <h5>Contact</h5>
+          
+                <div>
+                  <a href="about-us.html#contact-us">Send us a message</a>
+                  <p>callistoteas@gmail.com</p>
+                  <p>+234-706-131-3300</p>
+                  <div class="socials">
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="images/Whatsapp - 50.svg" alt="Whatsapp Logo"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram - 50.svg" alt="Instagram Logo"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/Twitter - 50.svg" alt="Twitter Logo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="copyright">
+            <p>&copy;Callisto | 2023. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    
+    <!-- Swiper Js -->
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/index-swiper.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

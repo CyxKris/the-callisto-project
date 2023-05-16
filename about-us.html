@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Callisto | About Us</title>
+    <!-- Website Icon -->
+    <link rel="website icon" type="png" href="images/website icon.png">
+    <meta name="description" content="About the tea company, Callisto.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/about-us.css">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  </head>
+
+  <body>
+    <!-- INTRO ANIMATION -->
+    <div class="overlay"></div>
+    <!-- MAIN PAGE -->
+    <div class="wrapper">
+
+      <!-- NAVIGATION BAR -->
+      <header class="flex" id="navigation-bar">
+        <!-- Main Logo -->
+        <a href="index.html" id="logo">
+          <img src="images/Gold Logo.svg" alt="Callisto Logo">
+          <!-- <img src="images/callisto-logo-white.svg" alt="Callisto Logo"> -->
+        </a>
+
+        <!-- Menu Icon -->
+        <a href="#" id="menu" onclick="show()">
+          <img src="images/Menu-icon.svg" alt="Menu Icon">
+        </a>
+
+        <!-- Navigation Links -->
+        <div class="navigation">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="tea-gallery.html">Tea Gallery</a>
+              </li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- PAGE CONTENT -->
+      <main>
+        <div id="hero" class="flex">
+          <h1>GET TO KNOW MORE ABOUT CALLISTO.</h1>
+          <div id="hero-image">
+            <img src="images/tea-setup.jpg" alt="">
+          </div>
+          <div id="hero-info" class="bold left">
+            <p>
+              Callisto is a tea company based in Lagos, Nigeria. The company was founded in 2021 with a vision to offer high-quality, organic teas that promote health and wellness in the local community and beyond.
+            </p>
+          </div>
+        </div>
+
+        <div id="our-story" class="info flex right">
+          <div>
+            <h2>OUR STORY</h2>
+            <img src="images/dark-tea-setup.jpg" alt="A tea setup">
+            <p>
+              Amina, the founder of Callisto, left her career in finance after discovering the health benefits of tea in a Lagos market. She traveled the world to study the art of tea-making and sourced the finest organic teas to create unique blends that promote health and wellness. With a commitment to quality and sustainability, Amina built a community of tea lovers through Callisto. Join the community and taste the beauty of tea.
+            </p>
+          </div>
+        </div>
+
+        <div id="our-mission" class="info left">
+          <div>
+            <h2>OUR MISSION</h2>
+            <img src="images/green-tea.jpg" alt="A cup of tea">
+            <p>
+              Our mission is to provide the finest tea blends, sourced from the best organic tea gardens around the world, to Nigerians. We are committed to providing teas that are not only delicious but also promote a healthy lifestyle. We are also committed to promoting sustainable tea farming practices and supporting the local tea-growing community.
+            </p>
+          </div>
+        </div>
+
+        <div class="info flex right">
+          <div>
+            <h2>MORE INFORMATION</h2>
+            <img src="images/tea-cup-with-green-background.jpg" alt="A tea cup">
+            <p>
+              In addition to offering high-quality teas, Callisto is committed to promoting tea culture and educating Nigerians on the benefits of tea. We organize tea-tasting events, tea parties, and tea workshops to promote tea culture and educate Nigerians on the various types of tea and their benefits.
+            </p>
+          </div>
+        </div>
+
+        <div id="our-teas">
+          <div class="bold info left">
+            <h2>OUR TEAS</h2>
+            <p>
+              We offer a wide range of teas, including black, green and oolong teas. We source our tea from organic tea gardens in Asia, Africa, and South America. Callisto's teas are packaged in biodegradable and recyclable materials to minimize the impact on the environment.
+            </p>
+          </div>
+
+          <div id="tea-slider">
+
+            <div id="see-all-button" class="flex">
+              <a href="tea-gallery.html" class="button button-transparent">See all <span><img src="images/arrow-right.svg" alt="Right Arrow"></span></a>
+            </div>
+
+            <div id="tea-section" class="flex swiper mySwiper">
+              
+              <div class="swiper-wrapper">
+                <div class="tea-card swiper-slide">
+                  <img src="images/callisto-black-lpurple.png" alt="Callisto Black Comet">
+                  <div class="description">
+                    <p class="tea-name">Black Comet</p>
+                    <p class="tea-size">25 Bags</p>
+                  </div>
+                </div>
+                <div class="tea-card swiper-slide">
+                  <img src="images/callisto-green-purple.png" alt="Callisto Green Galaxy">
+                  <div class="description">
+                    <p class="tea-name">Green Galaxy</p>
+                    <p class="tea-size">25 Bags</p>
+                  </div>
+                </div>
+                <div class="tea-card swiper-slide">
+                  <img src="images/callisto-oolong-green.png" alt="Callisto Oolong Eclipse">
+                  <div class="description">
+                    <p class="tea-name">Oolong Eclipse</p>
+                    <p class="tea-size">25 Bags</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="info bold right flex">
+          <p>
+            Callisto's ultimate goal is to become the leading tea company in Nigeria, promoting health and wellness through tea and promoting sustainable tea farming practices. We aim to expand its reach beyond Nigeria and become a global brand that offers the finest teas from around the world.
+          </p>
+        </div>
+
+        <div id="contact-us">
+          <h2>CONTACT US</h2>
+          
+          <div id="contact-container" class="flex">
+            <div id="contact-info" class="flex">
+              <h3>Contact Info</h3>
+
+              <ul class="contact-info">
+                <li>
+                  <span><img src="images/Address.svg" alt="Address Icon"></span>
+                  <span>
+                    28 Imaginary Road <br>
+                    Maryland, Lagos <br>
+                    199384
+                  </span>
+                </li>
+                <li>
+                  <span><img src="images/Mail 50.svg" alt="Mail Icon"></span>
+                  <span>
+                    callistoteas@gmail.com
+                  </span>
+                </li>
+                <li>
+                  <span><img src="images/Phone 50.svg" alt="Phone Icon"></span>
+                  <span>
+                    +234-706-131-3300
+                  </span>
+                </li>
+              </ul>
+  
+              <ul class="contact-socials flex">
+                <li>
+                  <a href="https://www.whatsapp.com/" target="_blank"><img src="images/Whatsapp - 50.svg" alt="Whatsapp Link"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram - 50.svg" alt="Instagram Link"></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/" target="_blank"><img src="images/Twitter - 50.svg" alt="Twitter Link"></a>
+                </li>
+              </ul>
+            </div>
+
+            <div id="contact-form">
+              <h3>Send Us A Message</h3>
+              <!-- action="/form-submit" -->
+              <form id="message-form" class="form flex">
+                <div class="form-group input-box w50">
+                  <input type="text" name="firstName" id="firstName" placeholder=" " minlength="2">
+                  <span class="form-span">First Name</span>
+                  <img class="form-icon success-icon" src="images/check-circle.svg">
+                  <img class="form-icon error-icon" src="images/exclamation-circle.svg">
+                  <div class="error"></div>
+                </div>
+
+                <div class="form-group input-box w50">
+                  <input type="text" name="lastName" id="lastName" placeholder=" " minlength="2">
+                  <span class="form-span">Last Name</span>
+                  <img class="form-icon success-icon" src="images/check-circle.svg">
+                  <img class="form-icon error-icon" src="images/exclamation-circle.svg">
+                  <div class="error"></div>
+                </div>
+
+                <div class="form-group input-box w50">
+                  <input type="email" name="email" id="email" placeholder=" " pattern="^(.+)@(.+)$">
+                  <span class="form-span">Email Address</span>
+                  <img class="form-icon success-icon" src="images/check-circle.svg">
+                  <img class="form-icon error-icon" src="images/exclamation-circle.svg">
+                  <div class="error"></div>
+                </div>
+
+                <div class="form-group input-box w50">
+                  <!-- <input type="tel" name="phoneNumber" id="phoneNumber" placeholder=" " minlength="10" maxlength="14" pattern="[0]{1}[6-9]{1}[0-9]{1}[0-9]{8}">   -->
+                  <input type="tel" name="phoneNumber" id="phoneNumber" pattern="^(?:\+?234|0)?[789][01]\d{8}$|^(?:\+?44|0)7\d{9}$|^(?:\+?1)?[2-9]\d{2}[2-9](?!11)\d{6}$" placeholder=" ">  
+                  <span class="form-span">Phone Number</span>
+                  <img class="form-icon success-icon" src="images/check-circle.svg">
+                  <img class="form-icon error-icon" src="images/exclamation-circle.svg">
+                  <div class="error"></div>
+                </div>
+
+                <div class="form-group input-box w100">
+                  <textarea name="message" id="message" placeholder=" "></textarea>
+                  <span class="form-span">Message</span>
+                  <img class="form-icon success-icon" src="images/check-circle.svg">
+                  <img class="form-icon error-icon" src="images/exclamation-circle.svg">
+                  <div class="error"></div>
+                </div>
+
+                <div class="input-box w100">
+                  <input type="submit" id="submit" value="Send" form-modal-open>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <dialog form-modal class="contact-form-modal modal">
+            <img src="images/check-circle.svg">
+            <div>
+              Message Sent Successfully!
+            </div>
+            <button form-modal-close class="button button-solid">CLOSE</button>
+          </dialog>
+        </div>
+      </main>
+
+      <!-- PAGE FOOTER -->
+      <footer id="footer">
+        <div>
+          <!-- <img class="section-divider-footer" src="images/wave-divider-light-purple.svg" alt="Section Divider"> -->
+          <div class="top-footer">
+            <div id="footer-logo" class="flex">
+              <a href="index.html"><img src="images/Gold Logo.svg" alt="Callisto Logo"></a>
+            </div>
+            
+            <div id="footer-links" class="flex">
+              <div class="footer-newsletter footer-section">
+                <h5>Newsletter Signup</h5>
+                <div class="flex">
+                  <p>Get updated on new developments in our brand.</p>
+                  <form class="newsletter-form flex">
+                    <input type="email" name="email" placeholder="EMAIL" class="footer-input" required>
+                    <input type="submit" value="Join" class="footer-submit" data-open-modal>
+                  </form>
+                  
+                  <dialog data-modal class="modal">
+                    <div>
+                      <img src="images/check-circle.svg">
+                      <p>Email Sent successfully!</p>
+                    </div>
+                    <button class="button button-solid" data-close-modal>CLOSE</button>
+                  </dialog>
+                </div>
+              </div>
+              
+              <div class="footer-nav-links footer-section">
+                <h5>Navigation</h5>
+                <div>
+                  <a href="index.html">Home</a>
+                  <a href="tea-gallery.html">Tea Gallery</a>
+                  <a href="shop.html">Shop</a>
+                  <a href="#">Blog</a>
+                  <a href="#">About Us</a>
+                </div>
+              </div>
+
+              <div class="footer-contact-links footer-section">
+                <h5>Contact</h5>
+          
+                <div>
+                  <a href="about-us.html#contact-us">Send us a message</a>
+                  <p>callistoteas@gmail.com</p>
+                  <p>+234-706-131-3300</p>
+                  <div class="socials">
+                    <a href="https://www.whatsapp.com/" target="_blank"><img src="images/Whatsapp - 50.svg" alt="Whatsapp Logo"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram - 50.svg" alt="Instagram Logo"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/Twitter - 50.svg" alt="Twitter Logo"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="copyright">
+            <p>&copy;Callisto | 2023. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    
+    <!-- Swiper Js -->
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/about-us.js" defer></script>
+  </body>
+</html>

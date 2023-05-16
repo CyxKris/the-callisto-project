@@ -1,0 +1,479 @@
+
+/* *Styling the global classes */
+/* THE BUTTON CLASS */
+
+.button-solid {
+    color: var(--dark);
+    background: var(--gold);
+    border: none;
+}
+
+
+/* *Styling the header (h1, h2, h3) tags */
+h1, h2, h3 {
+    font-family: 'Khand', sans-serif;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    line-height: 1;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 2rem;
+    opacity: 60%;
+}
+
+
+
+/* ?HERO SECTION */
+#hero {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 8rem 1rem 0;
+}
+
+#hero > div {
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 4.5em;
+    width: 90%;
+    max-width: 8em;
+    margin: 0 auto;
+    padding: 0 .5rem;
+    font-weight: 900;
+    cursor: default;
+    z-index: 10;
+    transition: all .5s ease;
+}
+
+#hero h1 span {
+    border-bottom: 4px solid var(--black);
+    font-family: 'Khand', sans-serif;
+}
+
+#hero a {
+    position: relative;
+    margin: 3rem 0 0;
+    gap: .5rem;
+}
+
+#hero a:hover {
+    gap: .75rem;
+}
+
+#hero a span {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+#hero .button {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .8rem 2rem;
+    border-radius: 3rem;
+    transition: .3s ease;
+    border: 2px solid var(--black);
+}
+
+#hero .button:hover {
+    background: var(--green);
+}
+
+#hero .button img {
+    width: 15px;
+}
+
+
+/* ?ACHIEVEMENTS SECTION */
+#achievements-section {
+    padding: 0 0 8rem;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.achievement {
+    position: relative;
+    text-align: center;
+    width: 80%;
+}
+
+.achievement img {
+    position: absolute;
+    width: 60px;
+    z-index: -1;
+    top: -10px;
+}
+
+#achievements-section span {
+    font-family: 'Khand', sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+
+/* ?MORE ABOUT CALLISTO SECTION */
+#about-callisto {
+    width: 100%;
+    margin: 0 auto 9rem;
+    background: var(--gold);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+/* The heading for the section */
+#about-callisto h2 {
+    font-size: 4em;
+    text-align: left;
+    opacity: 100%;
+}
+
+#about-callisto > div {
+    gap: 2rem;
+    flex-direction: column;
+}
+
+#about-callisto .info {
+    border-bottom: 2px solid var(--dark);
+    margin: 0 0 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Styling the little 'cards' section */
+.about-callisto-cards {
+    align-items: start;
+    gap: 1rem;
+}
+
+/* The circles */
+.about-callisto-cards img {
+    width: 40px;
+}
+
+/* The video section */
+.video {
+    position: relative;
+    border-radius: 2rem;
+    width: 100%;
+    height: 300px;
+    background: var(--green);
+    overflow: hidden;
+}
+
+.video video {
+    position: absolute;
+    object-fit: contain;
+    object-position: center center;
+    transform: scale(30%);
+}
+
+
+
+/* ?THE FEATURED TEAS SECTION */
+#featured-product {
+    padding-bottom: 5rem;
+}
+
+#featured-product,
+#featured-product > div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#featured-product > div {
+    border-radius: 20px;
+}
+
+#mini-set {
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.mini-set-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.mini-set-info h3 {
+    font-size: 2em;
+    padding-bottom: 1.5rem;
+}
+
+.mini-set-info a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Khand', sans-serif;
+    color: var(--gold);
+    font-weight: 300;
+    margin-top: .5rem;
+    border-bottom: 2px solid var(--black);
+    transition: all .3s ease;
+}
+
+
+.mini-set-info a:hover {
+    letter-spacing: .5px;
+}
+
+
+
+
+/* ?THE TESTIMONIAL SECTION */
+#testimonials {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 8rem;
+    overflow: hidden;
+    cursor: pointer;
+    background: var(--dark);
+}
+
+
+.person {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.person div {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 1rem;
+}
+
+.person-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem 0 2rem;
+}
+
+.person-thought {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--gold);
+    width: 100%;
+}
+
+.person-name {
+    font-weight: bold;
+    text-align: end;
+    padding: .5rem 2rem 0;
+    color: var(--grey);
+}
+
+.slider-buttons {
+    padding: 0 0 1rem 1rem;
+}
+
+.slider-buttons svg {
+    width: 40px;
+    background-color: var(--light-purple);
+    border-radius: 50%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+}
+
+.swiper-pagination {
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+/* ?THE BLOG SECTION */
+#coming-soon-section {
+    padding-bottom: 5rem;
+}
+
+#coming-soon-section,
+#coming-soon-section > div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#coming-soon-section > div {
+    border-radius: 20px;
+}
+
+#callisto-blog {
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.callisto-blog-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.callisto-blog-info h3 {
+    font-size: 2em;
+    padding-bottom: 1.5rem;
+}
+
+.callisto-blog-info a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--gold);
+    font-weight: 300;
+    border-bottom: 2px solid var(--black);
+    transition: all .3s ease;
+}
+
+
+.callisto-blog-info a:hover {
+    letter-spacing: .5px;
+}
+
+
+
+
+
+/* ?MEDIA QUERIES FOR TABLETS */
+@media (min-width: 768px) {
+    .button {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    #hero {
+        padding: 0 1rem;
+    }
+
+
+    #hero h1 {
+        font-size: 7em;
+    }
+
+
+    #hero div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+
+    #achievements-section {
+        padding: 0 0 8rem;
+        gap: 2rem;
+        flex-direction: row;
+    }
+    
+
+    #about-callisto > div {
+        flex-direction: column;
+    }
+
+    .video video {
+        transform: scale(40%);
+    }
+
+    .mini-set-info h3,
+    .callisto-blog-info h3 {
+        font-size: 2.5em;
+    }
+
+    .slider-buttons svg {
+        width: 50px;
+    }
+
+}
+
+
+/* ?MEDIA QUERIES FOR DESKTOP SCREENS */
+@media (min-width: 1023px) {
+    #hero {
+        width: 85%;
+        margin: 0 auto 3rem;
+        padding: 7rem .5rem 0;
+        position: static;
+    }
+
+    #hero h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 8em;
+    }
+
+    #hero div {
+        position: static;
+        transform: translate(0, 0);
+        width: 100%;
+    }
+
+    #achievements-section {
+        padding: 0 0 8rem;
+        gap: 2rem;
+        flex-direction: row;
+    }
+
+    .achievement span {
+        font-size: 6.5em;
+    }
+
+    #about-callisto > div {
+        flex-direction: row;
+    }
+
+    #about-callisto h2 {
+        font-size: 5em;
+    }
+
+    #mini-set {
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    #callisto-blog {
+        flex-direction: row-reverse;
+        padding: 2rem;
+    }
+
+    .mini-set-image,
+    .mini-set-info,
+    .callisto-blog-image,
+    .callisto-blog-info {
+        width: 50%;
+    }
+
+    #testimonials {
+        width: 80%;
+    }
+
+    .person div {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .person-thought {
+        width: 70%;
+    }
+
+    .slider-buttons {
+        padding: 0 3.2rem 1rem;
+    }
+
+    #newsletter input {
+        width: 80%;
+    }
+}

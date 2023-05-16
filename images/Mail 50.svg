@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<g id="Layer_10" style="display:none;">
+	<g style="display:inline;">
+		<rect x="-8.5" y="49.5" style="fill:#FFFFFF;" width="15" height="15"/>
+		<path d="M6,50v14H-8V50H6 M7,49H-9v16H7V49L7,49z"/>
+	</g>
+	<g style="display:inline;opacity:0.05;">
+		<g>
+			<circle style="fill:#FFFFFF;" cx="31" cy="25" r="21.5"/>
+			<path d="M31,4c11.579,0,21,9.421,21,21s-9.421,21-21,21s-21-9.421-21-21S19.421,4,31,4 M31,3C18.85,3,9,12.85,9,25s9.85,22,22,22
+				s22-9.85,22-22S43.15,3,31,3L31,3z"/>
+		</g>
+		<g>
+			<rect x="11.5" y="5.5" style="fill:#FFFFFF;" width="39" height="39"/>
+			<path d="M50,6v38H12V6H50 M51,5H11v40h40V5L51,5z"/>
+		</g>
+	</g>
+</g>
+<g id="filled">
+</g>
+<g id="outlined">
+</g>
+<g id="rounded">
+</g>
+<g id="two_x5F_tone">
+</g>
+<g id="sharp">
+</g>
+<g id="win10">
+</g>
+<g id="ios_x5F_out">
+	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" d="M36,45H14c-4.971,0-9-4.029-9-9V14
+		c0-4.971,4.029-9,9-9h22c4.971,0,9,4.029,9,9v22C45,40.971,40.971,45,36,45z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" d="M37,34H13c-1.105,0-2-0.895-2-2V18
+		c0-1.105,0.895-2,2-2h24c1.105,0,2,0.895,2,2v14C39,33.105,38.105,34,37,34z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" d="M38,17l-9.616,9.601
+		c-1.875,1.872-4.912,1.871-6.786-0.003L12,17"/>
+	<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="20" y1="25" x2="12" y2="33"/>
+	<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="38" y1="33" x2="29.988" y2="25"/>
+</g>
+<g id="ios_x5F_filled">
+</g>
+<g id="color">
+</g>
+<g id="fluent">
+</g>
+<g id="cloud">
+</g>
+<g id="bubbles">
+</g>
+<g id="gradient">
+</g>
+</svg>
