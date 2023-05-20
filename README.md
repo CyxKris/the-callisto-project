@@ -1,18 +1,16 @@
 #The Callisto Project
 __*A website for a fictional tea company called Callisto*__
 
----
-
 
 ## Table of Contents
----
+
 * [Live Demo](#live-demo)
 * [Technologies Used](#technologies-used)
 * [Description](#description)
 
 
 ##Live Demo
----
+
 It's currently hosted on Netlify.
 __*Click on the image below to view the live site*__
 [![LIVE DEMO](images/callisto-thumbnail.png)](https://callistoteas.netlify.app/)
@@ -26,7 +24,7 @@ __*Click on the image below to view the live site*__
 
 
 ##Description
----
+
 This is my first website project as a Junior Web Developer. 
 The website includes:
 - A home page: that introduces the company.
