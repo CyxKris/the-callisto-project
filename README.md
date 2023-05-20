@@ -13,7 +13,7 @@ __*A website for a fictional tea company called Callisto*__
 
 It's currently hosted on Netlify.
 __*Click on the image below to view the live site*__
-[![LIVE DEMO](images/callisto-thumbnail.png)](https://callistoteas.netlify.app/)
+[![LIVE DEMO](images/callisto-thumbnail.png)](https://external.ink?to=https://callistoteas.netlify.app/)
 
 
 ## Technologies Used
