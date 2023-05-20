@@ -1,6 +1,4 @@
-#The Callisto Project
-
----
+# The Callisto Project
 __*A website for a fictional tea company called Callisto*__
 
 
@@ -11,21 +9,21 @@ __*A website for a fictional tea company called Callisto*__
 * [Description](#description)
 
 
-##Live Demo
+## Live Demo
 
 It's currently hosted on Netlify.
 __*Click on the image below to view the live site*__
 [![LIVE DEMO](images/callisto-thumbnail.png)](https://callistoteas.netlify.app/)
 
 
-##Technologies Used
+## Technologies Used
 - HTML
 - CSS
 - JavaScript: 
     - SwiperJs Library
 
 
-##Description
+## Description
 
 This is my first website project as a Junior Web Developer. 
 The website includes:
