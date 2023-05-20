@@ -91,15 +91,15 @@ h1 {
 
 .info p {
     font-weight: 500;
-    font-size: 1.1em;
-    line-height: 1.6;
+    font-size: 1.2em;
+    line-height: 2;
 }
 
 /* The bold class */
 .bold p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 
@@ -454,7 +454,7 @@ dialog[open] {
     
     
     .info p {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     
     

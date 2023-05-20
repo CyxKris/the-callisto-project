@@ -147,7 +147,7 @@ h2 {
 }
 
 .tea-description {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 2.5;
     padding: 1rem;
 }
@@ -269,5 +269,9 @@ h2 {
     .tea-product-info {
         width: 70%;
         padding: 2rem;
+    }
+
+    .tea-description {
+        font-size: 1.1em;
     }
 }

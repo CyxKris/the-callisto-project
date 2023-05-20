@@ -98,6 +98,7 @@ h2 {
     padding: 0 0 8rem;
     gap: 4rem;
     flex-direction: column;
+    font-size: 1.2em;
 }
 
 .achievement {
@@ -127,6 +128,7 @@ h2 {
     background: var(--gold);
     padding: 2rem;
     box-shadow: var(--box-shadow);
+    font-size: 1.2em;
 }
 
 /* The heading for the section */
@@ -195,6 +197,8 @@ h2 {
 #mini-set {
     gap: 3rem;
     flex-direction: column;
+    font-size: 1.2em;
+    line-height: 2.2;
 }
 
 .mini-set-image img {
@@ -319,6 +323,11 @@ h2 {
 .callisto-blog-image img {
     width: 100%;
     object-fit: cover;
+}
+
+.callisto-blog-info {
+    font-size: 1.2em;
+    line-height: 2.2;
 }
 
 .callisto-blog-info h3 {
